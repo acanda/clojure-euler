@@ -17,8 +17,8 @@
 (defn findNewMax
   [a b max]
   (if (isPalindrome (.toString (* a b)) 0)
-                     (* a b)
-                     max))
+     (* a b)
+     max))
  
 (defn findLargest
   [a b max]
